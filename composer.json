@@ -1,0 +1,40 @@
+{
+    "name": "psalm/attributes",
+    "type": "library",
+    "description": "A collection of PHP 8 Attributes that Psalm can understand",
+    "keywords": [
+        "php",
+        "attributes",
+        "static analysis"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Brown"
+        }
+    ],
+    "require": {
+        "php": ">=8"
+    },
+    "require-dev": {
+        "vimeo/psalm": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Psalm\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Psalm\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "all-tests": [
+            "./psalm"
+        ],
+        "psalm": "./psalm"
+    }
+}
