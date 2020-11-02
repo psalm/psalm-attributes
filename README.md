@@ -4,7 +4,7 @@ A repository for PHP 8 Attributes that you can use with Psalm.
 
 ## Installation
 
-The potential for PHP 8's runtime attribute reflection somewhere in your codebase) makes this complicated.
+The potential for PHP 8's runtime attribute reflection somewhere in your codebase makes this complicated.
 
 If the following code exists your codebase:
 
